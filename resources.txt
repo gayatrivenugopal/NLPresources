@@ -1,0 +1,10 @@
+1. spaCy and PyTorch with transformers like BERT, XLNet, GPT-2
+https://explosion.ai/blog/spacy-pytorch-transformers
+
+2. NLP frameworks
+https://www.analyticsvidhya.com/blog/2019/08/complete-list-important-frameworks-nlp/
+
+3. ML notes of Andrew Ng's course
+http://www.holehouse.org/mlclass/
+
+4. 
