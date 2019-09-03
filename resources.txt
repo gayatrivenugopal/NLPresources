@@ -7,4 +7,4 @@ https://www.analyticsvidhya.com/blog/2019/08/complete-list-important-frameworks-
 3. ML notes of Andrew Ng's course
 http://www.holehouse.org/mlclass/
 
-4. 
+4. course.spacy.io
