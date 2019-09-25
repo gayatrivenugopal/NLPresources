@@ -1,0 +1,37 @@
+1. Stochaistic Gradient Descent
+- used when the dataset is huge
+- one random sample is used in every iteration, the loss/cost function is calculated
+- the objective is to find the parameters that produce the lowest value for the loss/cost function, aka the minima
+- SGD may require a higher number of iterations as comapared to the regular Gradient Descent, but it is computationally less expensive
+- This process is called back propagation
+
+References: https://www.geeksforgeeks.org/ml-stochastic-gradient-descent-sgd/,
+https://developers.google.com/machine-learning/crash-course/reducing-loss/stochastic-gradient-descent
+
+2. Parameter Vs Hyperparameter
+Parameter - learned by the model during the process based on the loss function
+Hyperparameter - values that are set manually
+Reference: https://machinelearningmastery.com/difference-between-a-parameter-and-a-hyperparameter/
+
+3. Learning rate
+Learning rate is a hyper-parameter that controls how much we are adjusting the weights of our network with respect the loss gradient. The lower the value, the slower we travel along the downward slope.
+Generally set to 0.01.
+References: https://towardsdatascience.com/understanding-learning-rates-and-how-it-improves-performance-in-deep-learning-d0d4059c1c10,
+https://machinelearningmastery.com/learning-rate-for-deep-learning-neural-networks/
+
+4. Logistic regression - used in case of binary dependent variable
+
+5. Forward propagation - the information moves from the input layer to the hidden layers, where the processing happens and the output is sent to the output layer.
+
+6. Backward propagation - the weights and biases of the neurons are updated based on the error.
+
+7. Activation function - decides whether the information is relevant or not, i.e., it decides whether the neuron should be activated or not.
+This does a non-linear transformation on the input.
+The hidden layer neurons do a linear transformation on the input.
+Linear transformations are incapable of performing complex tasks such as translation, classification etc.
+Non-linear transformations are useful for backpropagation (not sure how!).
+
+5.- 7. Reference: https://www.analyticsvidhya.com/blog/2017/10/fundamentals-deep-learning-activation-functions-when-to-use-them/
+
+8. Single layer perceptrons: no hidden layers; feedforward models have hidden layers. An activation function is applied after every hidden layer. Multilayer Perceptron (MLP) - more than two hidden layers.
+Reference: https://medium.com/biaslyai/pytorch-introduction-to-neural-network-feedforward-neural-network-model-e7231cff47cb
